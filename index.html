@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./logo.avif" alt="Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="./home.html" target="_blank">Home</a></li>
+                    <li><a href="./about.html" target="_blank">About</a></li>
+                    <li><a href="./contact.html" target="_blank">Contact</a></li>
+                    <li><button><a href="./signin.html" target="_blank">Sign In</a></button></li>
+                    <li><button><a href="./signup.html" target="_blank">Sign Up</a></button></li>
+                </ul>
+            </div>
+        </nav>
+        <h1 style="text-align: center; background-color: red;">Portfolio Website</h1>
+        <div class="header-content">
+            <p>Welcome to my portfolio. Let's create something amazing together.</p>
+        </div>
+        <div class="header-image">
+            <img src="./portfolio.webp" alt="Portfolio Image">
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I'm a passionate web developer with a focus on creating user-friendly and visually appealing websites.</p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Services</h2>
+                <p>I offer a range of services including web design, front-end development, and user experience consulting.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <p>I'm proficient in HTML, CSS, JavaScript, and various web development frameworks. Additionally, I possess strong communication and problem-solving skills.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me via the form below or through the contact details provided.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <section id="Contact">
+        <h2>Contact Us</h2> <br>
+        <p>Feel free to reach out to me via the form below or through the contact details provided.</p> <br>
+        <form action="/server">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="text" placeholder="Enter name" name="abc">
+            </div>  <br>
+            <div>
+                <label for="email">UserName: </label>
+                <input type="email" id="email" placeholder="Enter UserName" name="abc">
+            </div>  <br>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" name="pas">
+            </div> <br>
+            <div>
+                <label for="number">Phone No: </label>
+                <input type="number" id="number" placeholder="Enter number" name="num">
+            </div> <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
